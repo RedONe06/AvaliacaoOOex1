@@ -14,7 +14,7 @@ public class Producao {
         this.minuto = minuto;
         this.segundo = segundo;
         this.peca = "Teclado";
-        this.segundos = 3700;
+        this.segundos = 100;
     }
     
     public Producao(String peca, int segundos, int hora, int minuto, int segundo) {
@@ -67,7 +67,7 @@ public class Producao {
     @Override
     public String toString() {
         String resposta = "";
-        resposta = "A peça" + this.getPeca() + " que levou um total de "
+        resposta = "A peça: " + this.getPeca() + " que levou um total de "
                 + this.segundos + " levou " + this.getHora() + ":" +
                 this.getMinuto() + ":" + this.getSegundo()+ " para ficar pronta!!";
         return resposta;

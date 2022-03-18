@@ -11,7 +11,10 @@ public class UsaProducao extends Producao {
         Producao prod = new Producao(0, 0, 0);
         Scanner ler = new Scanner(System.in);
         
-        System.out.println("Nome da peça: ");
+        prod.calcularHMS();
+        System.out.println(prod.toString());
+        
+        System.out.println("Nome da nova peça: ");
         prod.setPeca(ler.nextLine());
         
         System.out.println("Segundos: ");
