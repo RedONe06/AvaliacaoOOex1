@@ -3,6 +3,7 @@ package br.ulbra.classes;
 import java.util.Scanner;
 // @author Andriele Joras dos Santos - Noturno
 // 17/03/22 - Início
+// 18/03/22 - Final
 
 public class UsaProducao extends Producao {
     
