@@ -67,8 +67,8 @@ public class Producao {
     @Override
     public String toString() {
         String resposta = "";
-        resposta = "A peça: " + this.getPeca() + " que levou um total de "
-                + this.segundos + " levou" + this.getHora() + ":" +
+        resposta = "A peça" + this.getPeca() + " que levou um total de "
+                + this.segundos + " levou " + this.getHora() + ":" +
                 this.getMinuto() + ":" + this.getSegundo()+ " para ficar pronta!!";
         return resposta;
     }
